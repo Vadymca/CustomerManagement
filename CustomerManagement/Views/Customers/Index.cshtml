@@ -1,6 +1,7 @@
 ﻿@model IEnumerable<CustomerManagement.Models.Customer>
-
-    <h2>Customers</h2>
+@{
+    Layout = "_Layout";
+}
     <p>
         <a href="@Url.Action("Create")" class="btn btn-primary">Create new Customer</a>
     </p>

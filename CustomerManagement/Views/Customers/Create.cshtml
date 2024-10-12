@@ -1,6 +1,8 @@
 ﻿@model CustomerManagement.Models.Customer
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
+@{
+    Layout = "_Layout";
+}
 <form asp-action="Create" method="post">
     <div class="form-group">
         <label asp-for="FirstName">FirstName</label>
